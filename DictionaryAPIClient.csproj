@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>APIVerve.API.Dictionary</Title>
+    <Version>1.0.0</Version>
+    <Authors>APIVerve</Authors>
+    <Company>APIVerve</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://apiverve.com/marketplace/api/dictionary</PackageProjectUrl>
+    <SignAssembly>False</SignAssembly>
+    <Description>Dictionary is a simple tool for getting word definitions. It returns the definition a word.</Description>
+    <RepositoryUrl>https://github.com/apiverve/dictionary-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>dictionary; dictionary api; dictionary tool; dictionary software; dictionary service; dictionary library; dictionary sdk; dictionary code; dictionary script; dictionary program; dictionary application; dictionary app; dictionary utility; dictionary helper; dictionary helper tool; dictionary helper software; dictionary helper service; dictionary helper library; dictionary helper sdk; dictionary helper code; dictionary helper script; dictionary helper program; dictionary helper application; dictionary helper app; dictionary helper tool; dictionary helper utility; dictionary helper</PackageTags>
+    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
